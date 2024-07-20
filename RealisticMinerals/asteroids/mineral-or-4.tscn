@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://RealisticMinerals/asteroids/mineral-or-3.tscn" type="PackedScene" id=1]
+
+[node name="Or4" instance=ExtResource( 1 )]
+purity = 0.55
+
+[node name="Sprite" parent="." index="0"]
+offset = Vector2( -9, 15 )
+region_rect = Rect2( 438, 1912, 146, 130 )

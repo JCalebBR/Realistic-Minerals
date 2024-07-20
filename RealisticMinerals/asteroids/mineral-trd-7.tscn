@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://RealisticMinerals/asteroids/mineral-trd-6.tscn" type="PackedScene" id=1]
+
+[node name="Trd7" instance=ExtResource( 1 )]
+purity = 0.98
+
+[node name="Sprite" parent="." index="0"]
+offset = Vector2( -13, 3 )
+region_rect = Rect2( 876, 1534, 146, 136 )

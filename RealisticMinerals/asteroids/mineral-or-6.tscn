@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://RealisticMinerals/asteroids/mineral-or-5.tscn" type="PackedScene" id=1]
+
+[node name="Or6" instance=ExtResource( 1 )]
+purity = 0.69
+
+[node name="Sprite" parent="." index="0"]
+region_rect = Rect2( 730, 1912, 146, 130 )

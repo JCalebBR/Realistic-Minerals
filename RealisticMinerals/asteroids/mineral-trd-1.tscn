@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://RealisticMinerals/asteroids/mineral-crs-1.tscn" type="PackedScene" id=1]
+
+[node name="Trd1" instance=ExtResource( 1 )]
+mass = 20.0
+purity = 0.5
+mineral = "Trd"
+scaleMin = 0.35
+scaleMax = 0.75
+
+[node name="Sprite" parent="." index="0"]
+region_rect = Rect2( 0, 1544, 146, 130 )

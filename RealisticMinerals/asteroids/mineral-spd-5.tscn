@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://RealisticMinerals/asteroids/mineral-spd-4.tscn" type="PackedScene" id=1]
+
+[node name="Spd5" instance=ExtResource( 1 )]
+purity = 0.68
+
+[node name="Sprite" parent="." index="0"]
+offset = Vector2( -13, 1 )
+region_rect = Rect2( 584, 1004, 146, 129 )

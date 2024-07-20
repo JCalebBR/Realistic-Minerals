@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://RealisticMinerals/asteroids/mineral-nta-6.tscn" type="PackedScene" id=1]
+
+[node name="Nta7" instance=ExtResource( 1 )]
+purity = 0.81
+
+[node name="Sprite" parent="." index="0"]
+region_rect = Rect2( 876, 877, 146, 130 )

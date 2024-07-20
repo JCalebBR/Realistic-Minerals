@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://RealisticMinerals/asteroids/mineral-qz-1.tscn" type="PackedScene" id=1]
+
+[node name="Crs1" instance=ExtResource( 1 )]
+mass = 22.0
+purity = 0.4
+mineral = "Crs"
+scaleMin = 0.5
+
+[node name="Sprite" parent="." index="0"]
+offset = Vector2( 0, 8 )
+region_rect = Rect2( 0, 1404, 146, 130 )

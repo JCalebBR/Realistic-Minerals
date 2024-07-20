@@ -1,0 +1,37 @@
+internal|en
+
+SYSTEM_CARGO_PROCESSED|Processed Cargo Hold
+
+-Obonto Trades-
+DIALOG_HABITAT_NEED_FO|Welcome {target/shipname}. Do you have processed forsterite for trade?
+DIALOG_HABITAT_NEED_FO_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed magnesium. We'll pay you premium.
+DIALOG_HABITAT_NEED_FA|Welcome {target/shipname}. Do you have processed fayalite for trade?
+DIALOG_HABITAT_NEED_FA_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed titanium. We'll pay you premium.
+DIALOG_HABITAT_NEED_DI|Welcome {target/shipname}. Do you have processed diopside for trade?
+DIALOG_HABITAT_NEED_DI_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed diopside. We'll pay you premium.
+DIALOG_HABITAT_NEED_JD|Welcome {target/shipname}. Do you have processed jadeite for trade?
+DIALOG_HABITAT_NEED_JD_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed jadeite. We'll pay you premium.
+DIALOG_HABITAT_NEED_JHN|Welcome {target/shipname}. Do you have processed johannsenite for trade?
+DIALOG_HABITAT_NEED_JHN_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed johannsenite. We'll pay you premium.
+DIALOG_HABITAT_NEED_KOS|Welcome {target/shipname}. Do you have processed kosmochlor for trade?
+DIALOG_HABITAT_NEED_KOS_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed kosmochlor. We'll pay you premium.
+DIALOG_HABITAT_NEED_NMS|Welcome {target/shipname}. Do you have processed namansilite for trade?
+DIALOG_HABITAT_NEED_NMS_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed namansilite. We'll pay you premium.
+DIALOG_HABITAT_NEED_NTA|Welcome {target/shipname}. Do you have processed natalyite for trade?
+DIALOG_HABITAT_NEED_NTA_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed natalyite. We'll pay you premium.
+DIALOG_HABITAT_NEED_SPD|Welcome {target/shipname}. Do you have processed spodumene for trade?
+DIALOG_HABITAT_NEED_SPD_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed spodumene. We'll pay you premium.
+DIALOG_HABITAT_NEED_ENS|Welcome {target/shipname}. Do you have processed enstatite for trade?
+DIALOG_HABITAT_NEED_ENS_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed enstatite. We'll pay you premium.
+DIALOG_HABITAT_NEED_QZ|Welcome {target/shipname}. Do you have processed quartz for trade?
+DIALOG_HABITAT_NEED_QZ_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed quartz. We'll pay you premium.
+DIALOG_HABITAT_NEED_CRS|Welcome {target/shipname}. Do you have processed cristobalite for trade?
+DIALOG_HABITAT_NEED_CRS_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed cristobalite. We'll pay you premium.
+DIALOG_HABITAT_NEED_TRD|Welcome {target/shipname}. Do you have processed tridymite for trade?
+DIALOG_HABITAT_NEED_TRD_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed tridymite. We'll pay you premium.
+DIALOG_HABITAT_NEED_AB|Welcome {target/shipname}. Do you have processed albite for trade?
+DIALOG_HABITAT_NEED_AB_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed albite. We'll pay you premium.
+DIALOG_HABITAT_NEED_AN|Welcome {target/shipname}. Do you have processed anorthite for trade?
+DIALOG_HABITAT_NEED_AN_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed anorthite. We'll pay you premium.
+DIALOG_HABITAT_NEED_OR|Welcome {target/shipname}. Do you have processed orthoclase for trade?
+DIALOG_HABITAT_NEED_OR_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed orthoclase. We'll pay you premium.

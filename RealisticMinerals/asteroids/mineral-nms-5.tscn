@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://RealisticMinerals/asteroids/mineral-nms-4.tscn" type="PackedScene" id=1]
+
+[node name="Nms5" instance=ExtResource( 1 )]
+purity = 0.73
+
+[node name="Sprite" parent="." index="0"]
+offset = Vector2( -12, 6 )
+region_rect = Rect2( 584, 757, 146, 130 )

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://RealisticMinerals/asteroids/mineral-ab-3.tscn" type="PackedScene" id=1]
+
+[node name="Ab4" instance=ExtResource( 1 )]
+purity = 0.56
+
+[node name="Sprite" parent="." index="0"]
+offset = Vector2( -11, 6 )
+region_rect = Rect2( 438, 1676, 146, 123 )
