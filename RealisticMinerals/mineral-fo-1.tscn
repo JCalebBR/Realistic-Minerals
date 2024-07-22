@@ -11,14 +11,13 @@ load_path = "res://RealisticMinerals/asteroids/assets/minerals-c.png.stex"
 flags = 4
 load_path = "res://RealisticMinerals/asteroids/assets/minerals-n.png.stex"
 
-[node name="Fo3" instance=ExtResource( 1 )]
+[node name="Fo1" instance=ExtResource( 1 )]
 mass = 20.0
-purity = 0.64
+purity = 0.52
 mineral = "Fo"
 
 [node name="Sprite" parent="." index="0"]
 material = ExtResource( 4 )
 texture = SubResource( 2 )
 normal_map = SubResource( 3 )
-offset = Vector2( -6, 4 )
-region_rect = Rect2( 292, 8, 146, 146 )
+region_rect = Rect2( 0, 8, 146, 146 )

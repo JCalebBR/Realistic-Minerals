@@ -26,6 +26,7 @@ func _ready():
 	#What color the minerals will be on the HUD/Market
 	specificMineralColors = {
 		"H2O":Color(0.1, 0.2, 1.0),
+		
 		"Fo": Color("#3d6c06"), # Forsterite
 		"Fa": Color("#875745"), # Fayalite
 		"Di": Color("#a0c702"), # Diopside

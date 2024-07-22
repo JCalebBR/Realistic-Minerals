@@ -83,14 +83,14 @@ func _init():
 			preload("res://RealisticMinerals/asteroids/mineral-spd-6.tscn"),
 			preload("res://RealisticMinerals/asteroids/mineral-spd-7.tscn"),
 		],
-		"Ens":[ # Enstatite
-			preload("res://RealisticMinerals/asteroids/mineral-ens-1.tscn"),
-			preload("res://RealisticMinerals/asteroids/mineral-ens-2.tscn"),
-			preload("res://RealisticMinerals/asteroids/mineral-ens-3.tscn"),
-			preload("res://RealisticMinerals/asteroids/mineral-ens-4.tscn"),
-			preload("res://RealisticMinerals/asteroids/mineral-ens-5.tscn"),
-			preload("res://RealisticMinerals/asteroids/mineral-ens-6.tscn"),
-			preload("res://RealisticMinerals/asteroids/mineral-ens-7.tscn"),
+		"En":[ # Enstatite
+			preload("res://RealisticMinerals/asteroids/mineral-en-1.tscn"),
+			preload("res://RealisticMinerals/asteroids/mineral-en-2.tscn"),
+			preload("res://RealisticMinerals/asteroids/mineral-en-3.tscn"),
+			preload("res://RealisticMinerals/asteroids/mineral-en-4.tscn"),
+			preload("res://RealisticMinerals/asteroids/mineral-en-5.tscn"),
+			preload("res://RealisticMinerals/asteroids/mineral-en-6.tscn"),
+			preload("res://RealisticMinerals/asteroids/mineral-en-7.tscn"),
 		],
 		"Qz":[ # Quartz
 			preload("res://RealisticMinerals/asteroids/mineral-qz-1.tscn"),

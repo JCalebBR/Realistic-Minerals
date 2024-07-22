@@ -21,8 +21,8 @@ DIALOG_HABITAT_NEED_NTA|Welcome {target/shipname}. Do you have processed natalyi
 DIALOG_HABITAT_NEED_NTA_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed natalyite. We'll pay you premium.
 DIALOG_HABITAT_NEED_SPD|Welcome {target/shipname}. Do you have processed spodumene for trade?
 DIALOG_HABITAT_NEED_SPD_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed spodumene. We'll pay you premium.
-DIALOG_HABITAT_NEED_ENS|Welcome {target/shipname}. Do you have processed enstatite for trade?
-DIALOG_HABITAT_NEED_ENS_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed enstatite. We'll pay you premium.
+DIALOG_HABITAT_NEED_EN|Welcome {target/shipname}. Do you have processed enstatite for trade?
+DIALOG_HABITAT_NEED_EN_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed enstatite. We'll pay you premium.
 DIALOG_HABITAT_NEED_QZ|Welcome {target/shipname}. Do you have processed quartz for trade?
 DIALOG_HABITAT_NEED_QZ_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed quartz. We'll pay you premium.
 DIALOG_HABITAT_NEED_CRS|Welcome {target/shipname}. Do you have processed cristobalite for trade?

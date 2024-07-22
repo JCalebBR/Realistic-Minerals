@@ -1,0 +1,251 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://comms/conversation/HabitatConversation.tscn" type="PackedScene" id=1]
+[ext_resource path="res://comms/conversation/subtrees/DIALOG_HABITAT_NEED_MINERAL.tscn" type="PackedScene" id=2]
+
+[node name="HabitatConversation" instance=ExtResource( 1 )]
+
+[node name="DIALOG_HABITAT_NEED_FO" parent="." index="18" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Fo"
+
+[node name="DIALOG_HABITAT_NEED_FO|like" parent="." index="19" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Fo"
+
+[node name="DIALOG_HABITAT_NEED_FA" parent="." index="20" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Fa"
+
+[node name="DIALOG_HABITAT_NEED_FA|like" parent="." index="21" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Fa"
+
+[node name="DIALOG_HABITAT_NEED_DI" parent="." index="22" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Di"
+
+[node name="DIALOG_HABITAT_NEED_DI|like" parent="." index="23" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Di"
+
+[node name="DIALOG_HABITAT_NEED_JD" parent="." index="24" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Jd"
+
+[node name="DIALOG_HABITAT_NEED_JD|like" parent="." index="25" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Jhn"
+
+[node name="DIALOG_HABITAT_NEED_JHN|like" parent="." index="26" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Jd"
+
+[node name="DIALOG_HABITAT_NEED_JHN" parent="." index="27" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Jhn"
+
+[node name="DIALOG_HABITAT_NEED_KOS" parent="." index="28" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Kos"
+
+[node name="DIALOG_HABITAT_NEED_KOS|like" parent="." index="29" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Kos"
+
+[node name="DIALOG_HABITAT_NEED_NMS" parent="." index="30" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Nms"
+
+[node name="DIALOG_HABITAT_NEED_NMS|like" parent="." index="31" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Nms"
+
+[node name="DIALOG_HABITAT_NEED_NTA" parent="." index="32" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Nta"
+
+[node name="DIALOG_HABITAT_NEED_NTA|like" parent="." index="33" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Nta"
+
+[node name="DIALOG_HABITAT_NEED_SPD" parent="." index="34" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Spd"
+
+[node name="DIALOG_HABITAT_NEED_SPD|like" parent="." index="35" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Spd"
+
+[node name="DIALOG_HABITAT_NEED_EN" parent="." index="36" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "En"
+
+[node name="DIALOG_HABITAT_NEED_EN|like" parent="." index="37" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "En"
+
+[node name="DIALOG_HABITAT_NEED_QZ" parent="." index="38" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Qz"
+
+[node name="DIALOG_HABITAT_NEED_QZ|like" parent="." index="39" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Qz"
+
+[node name="DIALOG_HABITAT_NEED_CRS" parent="." index="40" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Crs"
+
+[node name="DIALOG_HABITAT_NEED_CRS|like" parent="." index="41" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Crs"
+
+[node name="DIALOG_HABITAT_NEED_TRD" parent="." index="42" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Trd"
+
+[node name="DIALOG_HABITAT_NEED_TRD|like" parent="." index="43" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Trd"
+
+[node name="DIALOG_HABITAT_NEED_AB" parent="." index="44" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Ab"
+
+[node name="DIALOG_HABITAT_NEED_AB|like" parent="." index="45" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Ab"
+
+[node name="DIALOG_HABITAT_NEED_AN" parent="." index="46" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "An"
+
+[node name="DIALOG_HABITAT_NEED_AN|like" parent="." index="47" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "An"
+
+[node name="DIALOG_HABITAT_NEED_OR" parent="." index="48" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+tradeInMineral = "Or"
+
+[node name="DIALOG_HABITAT_NEED_OR|like" parent="." index="49" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "support"
+tradeInMineral = "Or"
+
+
+[node name="DIALOG_HABITAT_NEED_FO_DESPERATE" parent="." index="50" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Fo"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_FA_DESPERATE" parent="." index="51" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Fa"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_DI_DESPERATE" parent="." index="52" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Di"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_JD_DESPERATE" parent="." index="53" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Jd"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_JHN_DESPERATE" parent="." index="54" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Jhn"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_KOS_DESPERATE" parent="." index="55" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Kos"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_NMS_DESPERATE" parent="." index="56" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Nms"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_NTA_DESPERATE" parent="." index="57" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Nta"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_SPD_DESPERATE" parent="." index="58" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Spd"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_EN_DESPERATE" parent="." index="59" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "En"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_QZ_DESPERATE" parent="." index="60" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Qz"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_CRS_DESPERATE" parent="." index="61" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Crs"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_TRD_DESPERATE" parent="." index="62" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Trd"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_AB_DESPERATE" parent="." index="63" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Ab"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_AN_DESPERATE" parent="." index="64" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "An"
+setDiscountTo = 5.0
+
+[node name="DIALOG_HABITAT_NEED_OR_DESPERATE" parent="." index="65" instance=ExtResource( 2 )]
+mostPrelevantDisposition = "curiosity"
+changeHostility = -0.5
+changeFear = -0.5
+tradeInMineral = "Or"
+setDiscountTo = 5.0
+
+[editable path="DIALOG_HABITAT_DOCKING_SECURE"]
+[editable path="DIALOG_HABITAT_DOCKING_SECURE|going"]
+[editable path="DIALOG_HABITAT_DOCKING_SECURE_NOTRADE"]

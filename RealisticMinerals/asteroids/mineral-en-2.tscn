@@ -2,11 +2,8 @@
 
 [ext_resource path="res://RealisticMinerals/asteroids/mineral-en-1.tscn" type="PackedScene" id=1]
 
-[node name="Qz1" instance=ExtResource( 1 )]
-mass = 24.0
-purity = 0.3
-mineral = "Qz"
+[node name="En2" instance=ExtResource( 1 )]
+purity = 0.54
 
 [node name="Sprite" parent="." index="0"]
-offset = Vector2( 0, 5 )
-region_rect = Rect2( 0, 1261, 146, 130 )
+region_rect = Rect2( 146, 1127, 146, 130 )

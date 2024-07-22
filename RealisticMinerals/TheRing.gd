@@ -7,17 +7,12 @@ func getVeinAt(pos)->String:
 	var p3 = getVeinPixelAt(pos / 1337.0)
 	var p4 = getVeinPixelAt(pos / - 1776.0)
 
-	var values = [
-		p1.r, p1.g, p1.b, p1.a, 
-		p2.r, p2.b, p2.g, p2.a, 
-		p3.r, p3.b, p3.g, p3.a, 
-		p4.r, p4.b, p4.g, p4.a
-	]
+	var values = [p1.r, p1.g, p1.b, p1.a, p2.r, p2.b, p2.g, p2.a, p3.r, p3.b, p3.g, p3.a, p4.r, p4.b, p4.g, p4.a]
 
 	var total = 0
 	for n in range(CurrentGame.traceMinerals.size()):
 		var tm = CurrentGame.traceMinerals[n]
-		values[n] = pow(values[n] / pow(CurrentGame.mineralPrices.get(tm, 1), 0.2), 3)
+		values[n] = pow(values[n] / pow(CurrentGame.mineralPrices.get(tm, 1), 0.2), 4)
 		total += values[n]
 
 	var rnd = randf() * total

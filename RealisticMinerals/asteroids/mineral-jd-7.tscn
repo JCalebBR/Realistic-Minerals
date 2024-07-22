@@ -3,6 +3,7 @@
 [ext_resource path="res://RealisticMinerals/asteroids/mineral-jd-1.tscn" type="PackedScene" id=1]
 
 [node name="Jd7" instance=ExtResource( 1 )]
+purity = 0.83
 
 [node name="Sprite" parent="." index="0"]
 offset = Vector2( -2, 4 )
