@@ -4,9 +4,9 @@ SYSTEM_CARGO_PROCESSED|Processed Cargo Hold
 
 -Obonto Trades-
 DIALOG_HABITAT_NEED_FO|Welcome {target/shipname}. Do you have processed forsterite for trade?
-DIALOG_HABITAT_NEED_FO_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed magnesium. We'll pay you premium.
+DIALOG_HABITAT_NEED_FO_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed forsterite. We'll pay you premium.
 DIALOG_HABITAT_NEED_FA|Welcome {target/shipname}. Do you have processed fayalite for trade?
-DIALOG_HABITAT_NEED_FA_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed titanium. We'll pay you premium.
+DIALOG_HABITAT_NEED_FA_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed fayalite. We'll pay you premium.
 DIALOG_HABITAT_NEED_DI|Welcome {target/shipname}. Do you have processed diopside for trade?
 DIALOG_HABITAT_NEED_DI_DESPERATE|I'm really glad to see you {target/shipname}, we could really use some processed diopside. We'll pay you premium.
 DIALOG_HABITAT_NEED_JD|Welcome {target/shipname}. Do you have processed jadeite for trade?

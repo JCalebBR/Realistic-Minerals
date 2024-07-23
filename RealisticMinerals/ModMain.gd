@@ -25,7 +25,6 @@ func _init(modLoader = ModLoader):
 	# initHUD()
 	# initShip()
 	initElse()
-
 	l("Initialized")
 
 
@@ -41,20 +40,17 @@ func initAsteroids():
 # func initShip():
 # 	installScriptExtension("ships/modules/DockingArm.gd")
 # 	installScriptExtension("ships/modules/MineralProcessingUnit.gd")
-# 	installScriptExtension("ships/ship-ctrl.gd")
 
 func initElse():
 	installScriptExtension("TheRing.gd")
 	installScriptExtension("CurrentGame.gd")
-
-	# replaceScene("comms/conversation/HabitatConversation.tscn")
+	replaceScene("comms/conversation/HabitatConversation.tscn")
 
 
 #Do stuff on ready 
 func _ready():
 #	Add our translations
 	updateTL(modPath + "i18n/translation.txt", "|")
-
 	l("Ready")
 
 
@@ -89,7 +85,6 @@ func updateTL(csvPath:String, delim:String = ","):
 
 	l("Translations Updated")
 
-
 # Helper function to extend scripts
 func installScriptExtension(path:String):
 	var childPath = str(modPath + path)
@@ -103,6 +98,25 @@ func installScriptExtension(path:String):
 	l("Installing script extension: %s <- %s" % [parentPath, childPath])
 
 	childScript.take_over_path(parentPath)
+
+# Helper function to replace scenes
+func replaceScene(path:String, oldPath:String = ""):
+	l("Updating scene: %s" % path)
+	var newScene
+	var oldScene
+
+	if oldPath == "":
+		newScene = str(modPath + path)
+		oldScene = str("res://" + path)
+
+	else:
+		newScene = path
+		oldScene = oldPath
+
+	var scene = load(newScene)
+	scene.take_over_path(oldScene)
+	_savedObjects.append(scene)
+	l("Finished updating: %s" % oldScene)
 
 
 # Func to print messages to the logs
